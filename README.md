@@ -10,6 +10,13 @@
 - 프로젝트 별로 분리함으로써 오류나 장애가 발생했을 경우 해당부분만 수정하여 빠른 대처가 가능합니다. 
 - 화면을 통해 테스트 시 bo, api 서버 모두 실행해야 하며 현재 bo는 localhost로 api는 aws rds로 연결하였습니다.
 - api는 REST api로 postman, swagger 등으로 테스트 가능합니다.
+- demo-api는 aws rds maria db로 연결해 조회[GET] api 한개를 테스트로 만들었습니다.
+- log4j를 이용해 기본적인 로그는 모두 설정했습니다.(쿼리 실행 로그 및 오류로그) 
+- application.yml 파일 수정을 통해 필요에 따라 db연결을 바꿔 oracle, mysql 선택 가능합니다.
+- postman을 통해 localhost로 api를 실행한 후 테스트 가능합니다.
+  - http://localhost:포트번호/demo-api/selectBurger/list
+- maven을 사용하여 maven install, update project가 필요할 수 있습니다.
+
 
 <br/>
 
