@@ -1,4 +1,4 @@
-# spring boot api, bo 분리 기본 셋팅 
+# spring boot bo 기본 셋팅 
 
 <br/>
 
@@ -26,39 +26,4 @@
 - maven을 사용하여 maven install, update project가 필요할 수 있습니다.
 
 
-<br/>
 
-## demo-api 패키지 구성도
-- annotation
-- api
-  - common
-  - controller
-  - dao
-  - exception
-  - model
-    - burger
-  - service
-  - util
-- config
-
-```text
-api 패키지에 rest api에 필요한 구성이 있습니다.
-annotation, config 패키지는 기본 환경설정 구성이 있습니다.
-```
-
-<br/>
-
-## demo-bo 패키지 구성도
-- bo
-  - common
-  - controller
-  - exception
-  - model
-    - burger
-  - service
-- config
-
-```text
-bo 패키지에는 dao를 제외한 api로 요청하기 위한 구성이 있습니다.
-config 패키지에 기본 환경설정 구성이 있습니다.
-```
