@@ -1,4 +1,4 @@
-# spring boot bo 기본 셋팅 
+# spring boot bo 기본 
 
 <br/>
 
