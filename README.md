@@ -1,4 +1,4 @@
-# spring boot bo 기본 
+# 스프링부트 bo 기본 설정 프로젝트
 
 <br/>
 
