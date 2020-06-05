@@ -1,5 +1,7 @@
 # 스프링부트 bo 기본 설정 프로젝트
 
+[![Build Status](https://travis-ci.org/shlee0882/springboot-bo-default-setting.svg?branch=master)](https://travis-ci.org/shlee0882/springboot-bo-default-setting)
+
 <br/>
 
 - spring boot를 이용해 demo-api(로직,쿼리), demo-bo(화면)로 분리하여 기본셋팅(default setting)하였습니다.
